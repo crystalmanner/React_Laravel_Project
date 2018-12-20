@@ -1,0 +1,90 @@
+.small-menu {
+  padding-right: 60px;
+}
+
+.dropzone-active {
+  background: rgba(0, 0, 0, 0.363);
+  border: 4px dashed black;
+  z-index: 10000 !important;
+  padding: 48px;
+  opacity: 0.8;
+}
+
+.dropzone-active span {
+  display: block !important;
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: white;
+}
+
+.file-input-button {
+  cursor: pointer;
+}
+
+.file-input-button input {
+  cursor: pointer;
+}
+
+.secondary-btn.file-input-button input {
+  cursor: pointer;
+  overflow: hidden;
+  width: 200px !important;
+  left: -104px !important;
+}
+
+.block-button {
+  display: block !important;
+}
+
+.uploadedFile .uploaded-file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.uploadedFile .uploaded-file-size span {
+  font-size: 0.7rem;
+}
+
+.uploaded-file-size span {
+  width: auto;
+}
+
+.uploaded-file-size .react-fine-uploader-filesize-separator {
+  width: 4px;
+}
+
+.uploaded-file-size .react-fine-uploader-filesize-unit {
+  font-weight: 400;
+}
+
+.icon-buttons {
+  cursor: pointer;
+  padding: 0 0 2px 0 !important;
+}
+
+.icon-buttons.active-link {
+  background-color: #fbbc3f;
+}
+
+.icon-buttons.br-left {
+  padding-left: 4px !important;
+}
+
+.icon-buttons.br-right {
+  padding-right: 4px !important;
+}
+
+.downloadLink {
+  overflow: hidden;
+}
+
+.send-to-emails-list {
+  list-style: none;
+  padding-left: 4px;
+  font-size: 12px;
+}
